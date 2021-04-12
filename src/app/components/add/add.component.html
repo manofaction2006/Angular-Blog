@@ -1,0 +1,19 @@
+<div class="container my-3" *ngIf="false">
+    <h3>Add Post</h3>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Title</label>
+            <input type="text" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp" name="title">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Content</label>
+            <textarea type="text" class="form-control"
+                id="exampleInputPassword1" name="content"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Add</button>
+    </form>
+    <h1>
+        <ng-template #elseBlock>Log in First</ng-template>
+    </h1>
+</div>
